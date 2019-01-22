@@ -1,0 +1,15 @@
+/* general */
+html { background: url(../img/bg1_dark.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+body { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+.page_header { margin-top: 50; margin-left: 120; margin-bottom: -50; color: #8f8f8f; font-weight: 500; font-size: 35px;}
+.box_wrapper { text-align: center; }
+
+/* nav bar */
+#nav_bar { margin: 0; padding: 0; overflow: hidden; text-align: center; list-style: none; display: table; display: table-cell; vertical-align: middle; float: right; }
+#nav_logo { transition: 0.3s ease-in-out; font-size: 20px; text-decoration: none; list-style: none; margin: 5; border-radius: 0px; padding: 15px; color: #8f8f8f; display: inline-block; }
+#nav_logo:hover { color: white; transform: scale(1.2); }
+#nav_item { transition: 0.3s ease-in-out; font-size: 20px; text-decoration: none; list-style: none; margin: 5; border-radius: 0px; padding: 15px; color: #8f8f8f; display: table-cell; vertical-align: middle; float: left; }
+#nav_item:hover { transform: scale(1.2); }
+li a { color: #8f8f8f; text-align: center; text-decoration: none; }
+li a:hover { color: white; }
+.active { color: white; }

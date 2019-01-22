@@ -1,8 +1,10 @@
-<html class="series">
+<html class="page_series">
     <!-- head section -->
     <head>
         <title>Keeping It Reel</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/series.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="js/dropdown_display.js"></script>
     </head>
     <!-- body section -->
     <body>
@@ -29,139 +31,535 @@
         </section>
 
         <h2 class="page_header">Films</h2>
-        <div class="box_wrapper">
-            <h3 class="series_title">Toy Story:</h3>
-            <div class="box_film">
-                <section alt="toy story">
-                    <div alt="poster">
-                        <a href="#toy_story">
-                            <div class="film_container">
-                                <img class="film_image" src="img/posters/toy_story.jpg" alt="film" />
-                                <div class="film_middle">
-                                    <div class="film_text">Toy Story</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div alt="modal" id="toy_story" class="film-window">
-                        <div>
-                            <a href="#" title="Close" class="film-close">Close</a>
-                            <a href="https://www.imdb.com/title/tt0114709/" target="_blank"><img class="film_poster" src="img/posters/toy_story.jpg"></a>
-                            <h1 class="film_title">Toy Story (1995)</h1>
-                            <table>
-                                <tr>
-                                    <th class="field">Director:</th>
-                                    <th class="content">John Lasseter</th> 
-                                </tr>
-                                <tr>
-                                    <th class="field">Writer:</th>
-                                    <th class="content">John Lasseter</th>
-                                </tr>
-                                <tr>
-                                    <th class="cast_title">Cast:</th>
-                                </tr>
-                            </table>
-                            <div class="cast">
-                                <ul>
-                                    <li class="cast">Tom Hanks as Woody</li>
-                                    <li class="cast">Tim Allen as Buzz Lightyear</li>
-                                    <li class="cast">Don Rickles as Mr. Potato Head</li>
-                                    <li class="cast">Jim Varney as Slinky Dog</li>
-                                    <li class="cast">Wallace Shawn as Rex</li>
-                                </ul>
-                            </div>
-                            <iframe src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </section>
 
-                <section alt="toy story 2">
-                    <div alt="poster">
-                        <a href="#toy_story_2">
-                            <div class="film_container">
-                                <img class="film_image" src="img/posters/toy_story_2.jpg" alt="film" />
-                                <div class="film_middle">
-                                    <div class="film_text">Toy Story 2</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div alt="modal" id="toy_story_2" class="film-window">
-                        <div>
-                            <a href="#" title="Close" class="film-close">Close</a>
-                            <a href="https://www.imdb.com/title/tt0120363/" target="_blank"><img class="film_poster" src="img/posters/toy_story_2.jpg"></a>
-                            <h1 class="film_title">Toy Story 2 (1999)</h1>
-                            <table>
-                                <tr>
-                                    <th class="field">Director:</th>
-                                    <th class="content">John Lasseter</th> 
-                                </tr>
-                                <tr>
-                                    <th class="field">Writer:</th>
-                                    <th class="content">John Lasseter</th>
-                                </tr>
-                                <tr>
-                                    <th class="cast_title">Cast:</th>
-                                </tr>
-                            </table>
-                            <div class="cast">
-                                <ul>
-                                    <li class="cast">Tom Hanks as Woody</li>
-                                    <li class="cast">Tim Allen as Buzz Lightyear</li>
-                                    <li class="cast">Don Rickles as Mr. Potato Head</li>
-                                    <li class="cast">Joan Cusack as Jessie the Yodeling Cowgirl</li>
-                                    <li class="cast">Kelsey Grammer as Stinky Pete the Prospector</li>
-                                </ul>
-                            </div>
-                            <iframe src="https://www.youtube.com/embed/Lu0sotERXhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </section>
-
-                <section alt="toy story 3">
-                    <div alt="poster">
-                        <a href="#toy_story_3">
-                            <div class="film_container">
-                                <img class="film_image" src="img/posters/toy_story_3.jpg" alt="film" />
-                                <div class="film_middle">
-                                    <div class="film_text">Toy Story 3</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div alt="modal" id="toy_story_3" class="film-window">
-                        <div>
-                            <a href="#" title="Close" class="film-close">Close</a>
-                            <a href="https://www.imdb.com/title/tt0435761/" target="_blank"><img class="film_poster" src="img/posters/toy_story_3.jpg"></a>
-                            <h1 class="film_title">Toy Story 3 (2010)</h1>
-                            <table>
-                                <tr>
-                                    <th class="field">Director:</th>
-                                    <th class="content">Lee Unkrich</th> 
-                                </tr>
-                                <tr>
-                                    <th class="field">Writer:</th>
-                                    <th class="content">John Lasseter</th>
-                                </tr>
-                                <tr>
-                                    <th class="cast_title">Cast:</th>
-                                </tr>
-                            </table>
-                            <div class="cast">
-                                <ul>
-                                    <li class="cast">Tom Hanks as Woody</li>
-                                    <li class="cast">Tim Allen as Buzz Lightyear</li>
-                                    <li class="cast">Joan Cusack as Jessie</li>
-                                    <li class="cast">Ned Beatty as Lotso</li>
-                                    <li class="cast">Don Rickles as Mr. Potato Head</li>
-                                </ul>
-                            </div>
-                            <iframe src="https://www.youtube.com/embed/JcpWXaA2qeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </section>
+        <select class="series_button" name="series-labels" id="series">
+            <option value="0">Choose a Series</option>
+            <!-- <option></option>
+            <option>Series:</option> -->
+            <option value="1">Alien</option>
+            <option value="2">Star Wars</option>
+            <option value="3">The Incredibles</option>
+            <option value="4">Toy Story</option>
+            <!-- <option></option>
+            <option>Genres:</option> -->
+        </select>
+        
+        <div class="series" id="series0" alt="intro">
+            <div class="intro_box">
+                <h1 class="intro_title">This is the Series Page</h1>
+                <p class="intro_paragraph">
+                    Here you will find a dropdown menu allowing you to select from various series' and genres of movies. Upon selecting 
+                    the option you would like to see, it will display where this text is currently shown. In order to view this intro 
+                    text again, you may select the "Choose a Series" option.
+                </p>
             </div>
         </div>
+
+        <div class="series hidden" id="series1" alt="alien">
+            <div class="box_wrapper">
+                <div class="box_series">
+
+                    <section alt="alien">
+                        <div alt="poster">
+                            <a href="#alien">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/alien.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Alien</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="alien" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0078748/" target="_blank"><img class="film_poster" src="img/posters/alien.jpg"></a>
+                                <h1 class="film_title">Alien (1979)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Ridley Scott</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">Dan O'Bannon</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Sigourney Weaver as Ripley</li>
+                                        <li class="cast">Tom Skerritt as Dallas</li>
+                                        <li class="cast">John Hurt as Kane</li>
+                                        <li class="cast">Ian Holm as Ash</li>
+                                        <li class="cast">Harry Dean Stanton as Brett</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/DGAHtWV7Ua8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+        
+                    <section alt="aliens">
+                        <div alt="poster">
+                            <a href="#aliens">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/aliens.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Aliens</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="aliens" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0090605/" target="_blank"><img class="film_poster" src="img/posters/aliens.jpg"></a>
+                                <h1 class="film_title">Aliens (1986)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">James Cameron</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">James Cameron</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Sigourney Weaver as Ripley</li>
+                                        <li class="cast">Carrie Henn as Newt</li>
+                                        <li class="cast">Lance Henkriksen as Bishop</li>
+                                        <li class="cast">Bill Paxton as Private Hudson</li>
+                                        <li class="cast">Paul Reiser as Burke</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/p9sE1fIyIlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="series hidden" id="series2" alt="star wars">
+            <div class="box_wrapper">
+                <div class="box_series">
+
+                    <section alt="star wars: a new hope">
+                        <div alt="poster">
+                            <a href="#sw_a_new_hope">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/star_wars_a_new_hope.png" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Star Wars: A New Hope</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="sw_a_new_hope" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0076759/" target="_blank"><img class="film_poster" src="img/posters/star_wars_a_new_hope.png"></a>
+                                <h1 class="film_title">Star Wars: A New Hope (1977)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">George Lucas</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">George Lucas</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Mark Hamill as Luke Skywalker</li>
+                                        <li class="cast">Harrison Ford as Han Solo</li>
+                                        <li class="cast">Carrie Fisher as Princess Leia Organa</li>
+                                        <li class="cast">James Earl Jones as Darth Vader</li>
+                                        <li class="cast">Alex Guinness as Ben 'Obi-Wan' Kenobi</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/vZ734NWnAHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="star wars: empire strikes back">
+                        <div alt="poster">
+                            <a href="#sw_empire_strikes_back">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/star_wars_empire_strikes_back.png" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Star Wars: Empire Strikes Back</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="sw_empire_strikes_back" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0080684/" target="_blank"><img class="film_poster" src="img/posters/star_wars_empire_strikes_back.png"></a>
+                                <h1 class="film_title">Star Wars: Empire Strikes Back (1980)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Irvin Kershner</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">George Lucas</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Mark Hamill as Luke Skywalker</li>
+                                        <li class="cast">Harrison Ford as Han Solo</li>
+                                        <li class="cast">Carrie Fisher as Princess Leia Organa</li>
+                                        <li class="cast">Billy Dee Williams as Lando Calrissian</li>
+                                        <li class="cast">Frank Oz as Yoda</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/JNwNXF9Y6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="star wars: return of the jedi">
+                        <div alt="poster">
+                            <a href="#sw_return_of_the_jedi">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/star_wars_return_of_the_jedi.png" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Star Wars: Return of the Jedi</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="sw_return_of_the_jedi" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0086190/" target="_blank"><img class="film_poster" src="img/posters/star_wars_return_of_the_jedi.png"></a>
+                                <h1 class="film_title">Star Wars: Return of the Jedi (1983)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Richard Marquand</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">George Lucas</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Mark Hamill as Luke Skywalker</li>
+                                        <li class="cast">Harrison Ford as Han Solo</li>
+                                        <li class="cast">Carrie Fisher as Princess Leia Organa</li>
+                                        <li class="cast">Billy Dee Williams as Lando Calrissian</li>
+                                        <li class="cast">Frank Oz as Yoda</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/7L8p7_SLzvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="star wars: rogue one">
+                        <div alt="poster">
+                            <a href="#sw_rogue_one">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/star_wars_rogue_one.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Rogue One: A Star Wars Story</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="sw_rogue_one" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt3748528/" target="_blank"><img class="film_poster" src="img/posters/star_wars_rogue_one.jpg"></a>
+                                <h1 class="film_title">Rogue One: A Star Wars Story (2016)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Gareth Edwards</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">Chris Weitz</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Felicity Jones as Jyn Erso</li>
+                                        <li class="cast">Diego Luna as Cassian Andor</li>
+                                        <li class="cast">Alan Tudyk as K-2SO</li>
+                                        <li class="cast">Ben Mendelsohn as Orson Krennic</li>
+                                        <li class="cast">Forest Whitaker as Saw Gerrera</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/frdj1zb9sMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="series hidden" id="series3" alt="the incredibles">
+            <div class="box_wrapper">
+                <div class="box_series">
+
+                    <section alt="the incredibles">
+                        <div alt="poster">
+                            <a href="#incredibles">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/the_incredibles.png" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">The Incredibles</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="incredibles" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0317705/" target="_blank"><img class="film_poster" src="img/posters/the_incredibles.png"></a>
+                                <h1 class="film_title">The Incredibles (2004)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Brad Bird</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">Brad Bird</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Craig T. Nelson as Bob Parr / Mr. Incredible</li>
+                                        <li class="cast">Holly Hunter as Helen Parr / Elastigirl</li>
+                                        <li class="cast">Samuel L. Jackson as Lucius Best / Frozone</li>
+                                        <li class="cast">Jason Lee as Buddy Pine / Syndrome</li>
+                                        <li class="cast">Wallace Shawn as Gilbert Huph</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/-UaGUdNJdRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="the incredibles 2">
+                        <div alt="poster">
+                            <a href="#incredibles_2">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/the_incredibles_2.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">The Incredibles 2</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="incredibles_2" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt3606756/" target="_blank"><img class="film_poster" src="img/posters/the_incredibles_2.jpg"></a>
+                                <h1 class="film_title">The Incredibles 2 (2018)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Brad Bird</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">Brad Bird</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Craig T. Nelson as Bob Parr / Mr. Incredible</li>
+                                        <li class="cast">Holly Hunter as Helen Parr / Elastigirl</li>
+                                        <li class="cast">Samuel L. Jackson as Lucius Best / Frozone</li>
+                                        <li class="cast">Bob Odenkirk as Winston Deavor</li>
+                                        <li class="cast">Brad Bird as Edna Mode / E</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/i5qOzqD9Rms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="series hidden" id="series4" alt="toy story">
+            <div class="box_wrapper">
+                <div class="box_series">
+
+                    <section alt="toy story">
+                        <div alt="poster">
+                            <a href="#toy_story">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/toy_story.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Toy Story</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="toy_story" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0114709/" target="_blank"><img class="film_poster" src="img/posters/toy_story.jpg"></a>
+                                <h1 class="film_title">Toy Story (1995)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">John Lasseter</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">John Lasseter</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Tom Hanks as Woody</li>
+                                        <li class="cast">Tim Allen as Buzz Lightyear</li>
+                                        <li class="cast">Don Rickles as Mr. Potato Head</li>
+                                        <li class="cast">Jim Varney as Slinky Dog</li>
+                                        <li class="cast">Wallace Shawn as Rex</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="toy story 2">
+                        <div alt="poster">
+                            <a href="#toy_story_2">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/toy_story_2.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Toy Story 2</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="toy_story_2" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0120363/" target="_blank"><img class="film_poster" src="img/posters/toy_story_2.jpg"></a>
+                                <h1 class="film_title">Toy Story 2 (1999)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">John Lasseter</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">John Lasseter</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Tom Hanks as Woody</li>
+                                        <li class="cast">Tim Allen as Buzz Lightyear</li>
+                                        <li class="cast">Don Rickles as Mr. Potato Head</li>
+                                        <li class="cast">Joan Cusack as Jessie the Yodeling Cowgirl</li>
+                                        <li class="cast">Kelsey Grammer as Stinky Pete the Prospector</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/Lu0sotERXhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section alt="toy story 3">
+                        <div alt="poster">
+                            <a href="#toy_story_3">
+                                <div class="film_container">
+                                    <img class="film_image" src="img/posters/toy_story_3.jpg" alt="film" />
+                                    <div class="film_middle">
+                                        <div class="film_text">Toy Story 3</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div alt="modal" id="toy_story_3" class="film-window">
+                            <div>
+                                <a href="#" title="Close" class="film-close">Close</a>
+                                <a href="https://www.imdb.com/title/tt0435761/" target="_blank"><img class="film_poster" src="img/posters/toy_story_3.jpg"></a>
+                                <h1 class="film_title">Toy Story 3 (2010)</h1>
+                                <table>
+                                    <tr>
+                                        <th class="field">Director:</th>
+                                        <th class="content">Lee Unkrich</th> 
+                                    </tr>
+                                    <tr>
+                                        <th class="field">Writer:</th>
+                                        <th class="content">John Lasseter</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="cast_title">Cast:</th>
+                                    </tr>
+                                </table>
+                                <div class="cast">
+                                    <ul>
+                                        <li class="cast">Tom Hanks as Woody</li>
+                                        <li class="cast">Tim Allen as Buzz Lightyear</li>
+                                        <li class="cast">Joan Cusack as Jessie</li>
+                                        <li class="cast">Ned Beatty as Lotso</li>
+                                        <li class="cast">Don Rickles as Mr. Potato Head</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.youtube.com/embed/JcpWXaA2qeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
         
     </body>
 </html>

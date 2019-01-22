@@ -1,11 +1,11 @@
-<html class="page_requests">
+<html class="html_requests">
 
     <head>
-        <title>Keeping It Reel</title>
-        <link rel="stylesheet" type="text/css" href="css/requests.css">
+        <title>Keeping It Reel - Requests</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     
-    <body>
+    <body class="body_requests">
         <section alt="navbar">
             <a href="index.html"><div id="nav_logo">Keeping It Reel</div></a>
             <ul id="nav_bar">
@@ -27,6 +27,55 @@
             </ul>
         </section>
 
+        <section alt="request form">
+            <form accept-charset="UTF-8" action="action_page.php" autocomplete="off" method="GET" target="_blank" onsubmit="this.submit(); this.reset(); return false;">
+                <fieldset>
+                    <legend>Request Form:</legend>
+                    <table class="table_requests">
+                        <tr class="tr_requests">
+                            <td>First Name:</td>
+                            <td>Last Name:</td>
+                        </tr>
+                        <tr class="tr_requests">
+                            <td><input class="name" name="firstname" type="text" value="John"/></td>
+                            <td><input class="name" name="lastname" type="text" value="Doe"/><br/></td>
+                        </tr>
+                    </table>
+                    <table class="table_requests">
+                        <tr class="tr_requests">
+                            <td>Request Type:</td>
+                        </tr>
+                        <tr class="checklist">
+                            <td>
+                                <input checked="checked" name="sex" type="radio" value="film"/>&nbsp;&nbsp;Film&nbsp;&nbsp;</input> <br/>
+                                <input name="sex" type="radio" value="director" />&nbsp;&nbsp;Director&nbsp;&nbsp;</input> <br/>
+                                <input name="sex" type="radio" value="series" />&nbsp;&nbsp;Series&nbsp;&nbsp;</input> <br/>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="table_requests">
+                        <tr class="tr_requests">
+                            <td>Enter Your Request(s):</td>
+                        </tr>
+                        <tr class="textbox">
+                            <td>
+                                <textarea cols="40" rows="12">Enter requests here</textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="table_requests">
+                        <tr class="tr_requests">
+                            <td>
+                                <a href="requests.html"><button class="button" type="submit" value="Submit">Submit</button></a>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </fieldset>
+            </form>
+        </section>
+
+        <footer class="sticky">Copyright &copy; Jordan Belinsky 2019.</footer>
         
     </body>
 </html>
